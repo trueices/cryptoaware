@@ -1,0 +1,21 @@
+{
+    "transactions": [
+        {
+            "id": "transactionID",
+            "type": "deposit, withdrawal, buy, sell, fiat_deposit",
+            "from": "userID | walletID",
+            "to": "userID | walletID",
+            "amount": 0.0,
+            "currency": "BTC, ETH, USD, EUR, ...",
+            "network": "BSC, ETH, TRX, Kraken, Card, ...",
+            "fee": 0.0,
+            "price": 0.0,
+            "status": "pending, completed, failed",
+            "counterparty_id": "counterpartyID",
+            "hash": "transactionHash",
+            "exchange_id": "exchangeID",
+            "description": "transactionDescription",
+            "timestamp": 0
+        }
+    ]
+}

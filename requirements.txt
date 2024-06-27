@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+openpyxl
+numpy
+neo4j
+langchain
+langchain_openai
+langchain_core
+langchain_community
+# gqlalchemy
+python-dotenv
